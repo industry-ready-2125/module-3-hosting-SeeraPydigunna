@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order</title>
+    <style>
+        h1{
+            margin-top: 100px;
+            font-weight:bold;
+        }
+        body{
+            background-image: url("https://media.istockphoto.com/id/1287186696/photo/food-delivery-app-order-with-phone-online-mobile-service-for-take-away-burger-and-pizza.jpg?s=612x612&w=0&k=20&c=s0g33OOVOT9nZiFat2wvo7HhRvmM5kx0CJBp1OSfbRE=");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        div{
+            display: inline-block;
+        }
+        select{
+            width: 200px;
+            height: 30px;
+            font-size: 20px;
+        }
+        label{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        select{
+            margin-left: 50px;
+            color: seagreen;
+        }
+        input[type=text]{
+            margin-left: 20px;
+            height: 25px;
+        }
+        input[type=submit]{
+            background-color:aqua;
+            margin-top: 40px;
+            margin-left: 60px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #lab{
+            color:blue;
+        }
+       
+
+        
+    </style>
+</head>
+<body>
+    <h1>Your Favorite Flavors, Just a Click Away.</h1>
+    <form>
+        <label for="select menu" id="lab">Select Menu</label>
+         <select name="menu" id="menu">
+              <option value="idly">idly</option>
+              <option value="vada">vada</option>
+              <option value="dosa">dosa</option>
+              <option value="biryani">biryani</option>
+              <option value="meals">meals</option>
+              <option value="chapati">chapati</option>
+           </select>
+           <br>
+           <br>
+           <label for="quantity" id="lab">Enter Quantity</label>
+            <input type="text" name="quantity" id="quantity">
+            <br>
+            <br>
+            <input type="submit" value="Order Now">
+    </form>
+    
+   
+   
+
+    
+</body>
+</html>
